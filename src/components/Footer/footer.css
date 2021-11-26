@@ -1,0 +1,29 @@
+.logos{
+    margin-top: 20px;
+    height:40px;
+    width:40px;
+    border-radius: 20px;
+}
+
+.footer{
+    margin-top: 55px;
+    margin-left: 400px;
+    border-top:solid 2px black;
+    /* background: #CE8523;
+    background: -moz-linear-gradient(top, #CE8523 0%, #081F2E 50%, #000000 100%);
+    background: -webkit-linear-gradient(top, #CE8523 0%, #081F2E 50%, #000000 100%);
+    background: linear-gradient(to bottom, #CE8523 0%, #081F2E 50%, #000000 100%); */
+    width:600px;
+    height:80px;
+}
+
+.textito{
+    width:400px;
+    height:100px;
+    position:absolute;
+    left:10px;
+}
+
+.cajalogos{
+    justify-content: space-between;
+}

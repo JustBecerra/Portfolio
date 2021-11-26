@@ -1,9 +1,10 @@
 import './App.css';
 import backG from './components/imgs/night road.jpg'
-import pic from './components/imgs/descarga.jpg'
+import pic from './components/imgs/sonriente.jpg'
 import Intro from './components/PersonalInfo/Intro'
 import Techs from './components/PersonalInfo/Techs'
 import Proyects from './components/Proyects/Proyects'
+import Footer from './components/Footer/Footer'
 import '../src/components/Proyects/proyects.css'
 
 function App() {
@@ -23,9 +24,9 @@ function App() {
          <Techs/>
          <Proyects/>
        </div>
-       {/* <div className='container'>
-         <Proyects/>
-       </div> */}
+       <div>
+         <Footer/>
+       </div>
     </div>
   );
 }

@@ -3,8 +3,11 @@ import './proyects.css'
 export default function Proyects(){
     return(
         <div className='container'>
+            <h1>My proyects</h1>
             <div>
-                <h2 href={"https://justvideogames.vercel.app"}>Videogame App</h2>
+                <a href="https://justvideogames.vercel.app">
+                  <h2>Videogame App</h2>
+                </a>
                 <p>
                     Development of a SPA using React for the Front End, and Redux as stage management.
                     The components were developed with CSS without the use of external libraries. It
@@ -13,7 +16,9 @@ export default function Proyects(){
                 </p>
             </div>
             <div>
-                <h2 href={"https://huellitas.vercel.app/home"}>Social media App</h2>
+                <a href="https://huellitas.vercel.app/home"> 
+                  <h2>Social media App</h2>
+                </a>
                 <p>
                     Web social app where you can post lost, for adoption or found pets. With the objective of
                     unifying pets announcement in one place so information can be easier to find. We used

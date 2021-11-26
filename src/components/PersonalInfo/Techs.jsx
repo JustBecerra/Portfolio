@@ -3,7 +3,7 @@ import './techs.css'
 export default function Techs(){
     return(
         <div className='list'>
-            <h1>Tech:</h1>
+            <h1>Tech</h1>
             <ul>
                 <li>JavaScript</li>
                 <li>TypeScript</li>
