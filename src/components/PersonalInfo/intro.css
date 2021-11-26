@@ -1,9 +1,16 @@
 .Pbackground{
-    width:100%;
-    height:100px;
+    margin-left: 20px;
+    width:800px;
+    height:175px;
     background:gray;
     opacity:0.6;
     position:relative;
     top:140px;
     border: 2px solid black;
+}
+
+.Aboutme{
+  margin-left: 20px;
+  position:relative;
+  top:150px;
 }
