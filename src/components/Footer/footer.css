@@ -1,13 +1,28 @@
-.logos{
-    margin-top: 20px;
+.logoGitHub{
+    /* margin-top: 20px; */
     height:40px;
     width:40px;
     border-radius: 20px;
+    /* position:relative;
+    left:20px; */
+}
+
+.logoLinkedIn{
+    height:40px;
+    width:40px;
+    border-radius: 20px;
+    /* position: relative;
+    left:180px;
+    bottom:105px; */
+}
+
+.espaciologos{
+    height:50px;
 }
 
 .footer{
-    margin-top: 55px;
-    margin-left: 400px;
+    margin-top: 150px;
+    margin-left: 300px;
     border-top:solid 2px black;
     /* background: #CE8523;
     background: -moz-linear-gradient(top, #CE8523 0%, #081F2E 50%, #000000 100%);
@@ -20,10 +35,29 @@
 .textito{
     width:400px;
     height:100px;
+    margin-top: 10px;
     position:absolute;
+    top:1570px;
     left:10px;
 }
 
-.cajalogos{
-    justify-content: space-between;
+.logoGmail{
+    height:40px;
+    width:40px;
+    border-radius: 20px;
+    /* position:relative;
+    bottom:215px;
+    left:350px; */
+}
+
+/* .gmailtext{
+    text-decoration: none;
+} */
+
+.linkedtext{
+    text-decoration: none;
+}
+
+.githubtext{
+    text-decoration:none;
 }
