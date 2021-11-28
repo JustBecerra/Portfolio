@@ -9,10 +9,9 @@ export default function Techs(){
             <Box
             sx={{
                 display: 'grid',
-                columnGap: 0.1,
-                rowGap: 1,
+                gap:1,
                 gridTemplateColumns: 'repeat(3, 1fr)',
-                
+                justifyContent: 'space-between'
               }}
               className='box'
             >

@@ -10,11 +10,12 @@
     bottom:180px;
 }
 
-.box{
-    /* position:relative;
-    left:10px; */
-}
+/* .box{
+    justify-content: space-between;
+} */
 
 .singletech{
-    border:2px solid green;
+    border:2px solid #074f92;
+    color:#074f92;
+    height:50px;
 }
