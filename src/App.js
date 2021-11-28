@@ -14,12 +14,12 @@ function App() {
 
   const theme = createTheme({
     typography: {
-      palette: {
-        // primary: {
-        //   main: '#00cc44',
-        //   dark: '#000000',
-        // },
-      },
+      // palette: {
+      //   primary: {
+      //     main: '#242526',
+      //     dark: '#000000',
+      //   },
+      // },
       fontFamily: [
         '-apple-system',
         'BlinkMacSystemFont',
@@ -37,11 +37,11 @@ function App() {
 
   return (
     <div>
-       <div> 
+       <div className='imagenfondo'> 
          <img className='profilePic' src={pic} alt="nothing"/>
            <Typography variant="p" className='welcometext'>
              <ThemeProvider theme={theme}>
-              <Box fontFamily='BlinkMacSystemFont' color='primary.dark' fontSize='65px'>
+              <Box fontFamily='BlinkMacSystemFont' fontSize='65px'>
               Hello there,<br/>
               I'm Justo Becerra<br/>
               Full Stack Developer<br/>

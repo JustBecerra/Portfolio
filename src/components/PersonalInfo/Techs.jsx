@@ -1,23 +1,34 @@
 import './techs.css'
+import { Box } from '@material-ui/core'
+import { ListItem } from '@material-ui/core'
 
 export default function Techs(){
     return(
         <div className='list'>
-            <h1>Tech</h1>
-            <ul>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>ReactJS</li>
-                <li>Redux</li>
-                <li>MongoDB</li>
-                <li>NodeJS</li>
-                <li>WebSocket</li>
-                <li>Express</li>
-                <li>PostgresSQL</li>
-                <li>Sequelize</li>
-                <li>HTML5</li>
-                <li>CSS</li>
-            </ul>
+            <h1 className='techtitle'>Tech</h1>
+            <Box
+            sx={{
+                display: 'grid',
+                columnGap: 0.1,
+                rowGap: 1,
+                gridTemplateColumns: 'repeat(3, 1fr)',
+                
+              }}
+              className='box'
+            >
+                <ListItem className='singletech'>JavaScript</ListItem>
+                <ListItem className='singletech'>TypeScript</ListItem>
+                <ListItem className='singletech'>ReactJS</ListItem>
+                <ListItem className='singletech'>Redux</ListItem>
+                <ListItem className='singletech'>MongoDB</ListItem>
+                <ListItem className='singletech'>NodeJS</ListItem>
+                <ListItem className='singletech'>WebSocket</ListItem>
+                <ListItem className='singletech'>Express</ListItem>
+                <ListItem className='singletech'>PostgresSQL</ListItem>
+                <ListItem className='singletech'>Sequelize</ListItem>
+                <ListItem className='singletech'>HTML5</ListItem>
+                <ListItem className='singletech'>CSS</ListItem>
+            </Box>
         </div>
     )
 }

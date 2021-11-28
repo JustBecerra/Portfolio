@@ -3,3 +3,18 @@
     position: relative;
     top:150px;
 }
+
+.techtitle{
+    position:absolute;
+    left:500px;
+    bottom:180px;
+}
+
+.box{
+    /* position:relative;
+    left:10px; */
+}
+
+.singletech{
+    border:2px solid green;
+}

@@ -20,9 +20,11 @@ export default function Proyects(){
                   <h2>Social media App</h2>
                 </a>
                 <p>
-                    Web social app where you can post lost, for adoption or found pets. With the objective of
-                    unifying pets announcement in one place so information can be easier to find. We used
-                    MongoDB, TypeScript, WebSocket, Leaflet, Passport and Firebase among others.
+                    Web social app I developed along with some friends where you can post lost, for adoption or found pets. 
+                    We provide a map to locate the desired pet along with a real time chat to coordinate with other users.
+                    Also, if you wish, you can find a donation button down in the footer to help us!.
+                    The objective of this app is unifying pets announcement in one place so information can be easier to find. 
+                    We used MongoDB, TypeScript, WebSocket, Leaflet, Passport and Firebase among others.
                 </p>
             </div>
         </div>
