@@ -17,5 +17,62 @@
 .singletech{
     border:2px solid #074f92;
     color:#074f92;
-    height:50px;
+    position:relative;
+    left:250px;
+}
+
+.jslogo{
+    width:30px;
+    height:30px;
+    position:relative;
+    left:50px;
+}
+
+.tslogo{
+    width:40px;
+    height:30px;
+    position:relative;
+    left:50px;
+}
+
+.reduxlogo{
+    width:30px;
+    height:30px;
+    position:relative;
+    left:75px;
+}
+
+.socketlogo{
+    width:30px;
+    height:30px;
+    position:relative;
+    left:40px;
+}
+
+.mongologo{
+    width:30px;
+    height:30px;
+    position:relative;
+    left:55px;
+}
+
+.expresslogo{
+    width:55px;
+    height:30px;
+    position:relative;
+    left:60px;
+}
+
+.htmllogo{
+    width:30px;
+    height:30px;
+    position:relative;
+    left:75px;
+}
+
+.csslogo{
+    width:30px;
+    height:30px;
+    position:relative;
+    left:100px;
 }
