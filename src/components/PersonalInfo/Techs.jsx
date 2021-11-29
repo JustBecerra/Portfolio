@@ -13,11 +13,15 @@ import postgreslogo from '../imgs/postgreslogo.png'
 import expresslogo from '../imgs/expresslogo.png'
 import htmllogo from '../imgs/htmllogo.png'
 import csslogo from '../imgs/csslogo.png'
+import luztech from '../imgs/luztech.png'
 
 export default function Techs(){
     return(
         <div className='list'>
-            <h1 className='techtitle'>Tech</h1>
+            <h1 className='techtitle'>
+                Tech
+                <img className='luztech' src={luztech} alt='nada'/>    
+            </h1>
             <Box
             sx={{
                 display: 'grid',
