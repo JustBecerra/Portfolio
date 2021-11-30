@@ -9,6 +9,9 @@ import '../src/components/Proyects/proyects.css'
 import { Box, Container, Switch, Typography } from '@material-ui/core';
 import { createTheme } from '@material-ui/core';
 import { ThemeProvider } from '@material-ui/styles';
+import britishlogo from '../src/components/imgs/britishlogo.png'
+import spanishlogo from '../src/components/imgs/spanishlogo.png'
+
 
 function App() {
   const theme = createTheme({
@@ -36,11 +39,13 @@ function App() {
   const [translate,setTranslate] = useState(false)
   return (
     <div>
-      <Container className='navbar'>
+      <Container >
         <Switch 
+          // className='navbar'
           checked={translate}
           onChange={() => setTranslate(!translate)}
         />
+        {translate === false ? <img className='languagelogo' src={britishlogo}/> : <img className='languagelogo' src={spanishlogo}/>}
       </Container>
        <div className='imagenfondo'> 
          <img className='profilePic' src={pic} alt="nothing"/>

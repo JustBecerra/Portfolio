@@ -7,27 +7,40 @@
   color:blanchedalmond
 }
 
+.projectname{
+  color:rgb(255, 255, 255);
+  text-decoration:wavy;
+  font-size: 20px;
+  position:relative;
+  top:38px;
+}
+
 .links{
   color:rgb(15, 248, 229);
   text-decoration:none;
   font-size: 20px;
+  width:100px;
+  position:relative;
+  left:200px;
 }
 
 .PIvideo{
-  width:600px;
+  width:60%;
   position:relative;
-  right:50px;
+  right:250px;
 }
 
 .PGvideo{
-  width:600px;
+  width:60%;
   position:relative;
-  right:100px;
+  right:260px;
+  top:30px;
 }
 
 .thankstext{
   color:blanchedalmond;
+  width:525px;
   position:relative;
   top:150px;
-  left:200px;
+  left:350px;
 }

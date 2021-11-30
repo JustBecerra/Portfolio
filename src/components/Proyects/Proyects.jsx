@@ -8,8 +8,9 @@ export default function Proyects(){
         <div className='container'>
             <h1 className='parrafo'>My proyects</h1>
             <div>
+                <h2 className='projectname'>Videogame App</h2>
                 <a className='links' href="https://justvideogames.vercel.app">
-                  Videogame App
+                  Check it out yourself
                 </a>
                 <p className='parrafo'>
                     Development of a SPA using React for the Front End, and Redux as stage management.
@@ -17,13 +18,14 @@ export default function Proyects(){
                     consumes data from an API through a Back End developed in nodeJS using Express,
                     adding new functionalities to the original API.
                 </p>
-                <Container className='PIvideo'>
+                <Container>
                   <ReactPlayer className='PIvideo' url='https://vimeo.com/640730517/a54e463073'/>
                 </Container>
             </div>
             <div>
+                <h2 className='projectname'>Social Media App</h2>
                 <a className='links' href="https://huellitas.vercel.app/home"> 
-                  Social Media App
+                  Check it out yourself
                 </a>
                 <p className='parrafo'>
                     Web social app I developed along with some friends where you can post lost, for adoption or found pets. 
@@ -33,11 +35,11 @@ export default function Proyects(){
                     We used MongoDB, TypeScript, WebSocket, Leaflet, Passport and Firebase among others.
                 </p>
                 <Container className='PGvideo'>
-                  <ReactPlayer controls={true} url='https://www.youtube.com/watch?v=VXivMZ0iOYU' />
+                  <ReactPlayer  controls={true} url='https://www.youtube.com/watch?v=VXivMZ0iOYU' />
                 </Container>
                 
             </div>
-            <h2 className='thankstext'>Hope you liked it, if you wish to contact me, you can go ahead and check below.</h2>
+            <p className='thankstext'>Hope you liked it, if you wish to contact me, you can go ahead and check below.</p>
         </div>
     )
 }
