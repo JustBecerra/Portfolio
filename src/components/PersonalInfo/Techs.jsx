@@ -15,13 +15,21 @@ import htmllogo from '../imgs/htmllogo.png'
 import csslogo from '../imgs/csslogo.png'
 import luztech from '../imgs/luztech.png'
 
-export default function Techs(){
+export default function Techs(translate){
     return(
-        <div className='list'>
+        <div >
+            {translate === false ?
             <h1 className='techtitle'>
-                Tech
-                <img className='luztech' src={luztech} alt='nada'/>    
+                Technologies
             </h1>
+            :
+            <h1 className='techtitle'>
+                Tecnologias
+            </h1>
+            }
+            
+            <img className='luztech' src={luztech} alt='nada'/>
+            
             <Box
             sx={{
                 display: 'grid',

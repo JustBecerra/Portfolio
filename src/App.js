@@ -16,12 +16,6 @@ import spanishlogo from '../src/components/imgs/spanishlogo.png'
 function App() {
   const theme = createTheme({
     typography: {
-      // palette: {
-      //   primary: {
-      //     main: '#242526',
-      //     dark: '#000000',
-      //   },
-      // },
       fontFamily: [
         '-apple-system',
         'BlinkMacSystemFont',
@@ -51,7 +45,6 @@ function App() {
          <img className='profilePic' src={pic} alt="nothing"/>
            <Typography variant="p" className='welcometext'>
              <ThemeProvider theme={theme}>
-              <Box fontFamily='BlinkMacSystemFont' fontSize='65px'>
               {translate === false ? <Box fontFamily='BlinkMacSystemFont' fontSize='65px'>
                   Welcome, <br/>
                   I'm Justo Becerra<br/>
@@ -62,26 +55,29 @@ function App() {
                 soy Justo Becerra<br/>
                 Full Stack Developer<br/>
               </Box>}
-              
-              
-              </Box>
               </ThemeProvider>
             </Typography>
             <Typography variant='h5' className='residencetext' >
             <ThemeProvider theme={theme}>
+              {translate === false ? 
               <Box fontFamily='BlinkMacSystemFont' text-underline='1px'>
                residing in Argentina
               </Box>
+              :
+              <Box fontFamily='BlinkMacSystemFont' text-underline='1px'>
+                residiendo en Argentina
+              </Box>
+              }
               </ThemeProvider>
             </Typography>
        </div>
        <div>
-         <Intro/>
-         <Techs/>
-         <Proyects/>
+         <Intro  translate={translate}/>
+         <Techs translate={translate}/>
+         <Proyects translate={translate}/>
        </div>
        <div>
-         <Footer/>
+         <Footer />
        </div>
     </div>
   );

@@ -1,23 +1,27 @@
-.list{
+/* .list{
     margin-left: 20px;
     margin-top: 80px;
+    width:400px;
     position: relative;
     top:150px;
-}
+    left:80px;
+} */
 
 .techtitle{
     color:#ffffffd7;
-    position:absolute;
-    left:500px;
-    bottom:180px;
+    width:100px;
+    position:relative;
+    left:515px;
+    top:300px;
+    margin:0px;
 }
 
 .luztech{
     width:600px;
     height:400px;
     position:relative;
-    right:315px;
-    top:210px;
+    left:300px;
+    top:320px;
 }
 
 .singletech{
@@ -30,7 +34,8 @@ background: -webkit-linear-gradient(left, #040361 0%, #1C6EA4 50%, #00D0FF 100%)
 background: linear-gradient(to right, #040361 0%, #1C6EA4 50%, #00D0FF 100%); */
     box-shadow: 0px 0px 12px 2px #09cce6;
     position:absolute;
-    left:250px;
+    left:300px;
+    top:120px;
 }
 
 /* .singletech:hover{

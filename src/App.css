@@ -1,7 +1,7 @@
 .navbar{
-  position:static;
+  position:fixed;
   background-color: black;
-  width:500px;
+  /* width:600px; */
 }
 
 .languagelogo{
@@ -9,6 +9,10 @@
   height:35px;
   position:absolute;
   top:1px;
+}
+
+.achicarespacio{
+  height:800px;
 }
 
 .imagenfondo{

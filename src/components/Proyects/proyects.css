@@ -4,7 +4,14 @@
 }
 
 .parrafo{
-  color:blanchedalmond
+  color:blanchedalmond;
+}
+
+.titulo{
+  color:blanchedalmond;
+  width:200px;
+  position:relative;
+  left:500px;
 }
 
 .projectname{
@@ -25,15 +32,15 @@
 }
 
 .PIvideo{
-  width:60%;
+  width:600px;
   position:relative;
-  right:250px;
+  left:270px;
 }
 
 .PGvideo{
-  width:60%;
+  width:600px;
   position:relative;
-  right:260px;
+  left:260px;
   top:30px;
 }
 
