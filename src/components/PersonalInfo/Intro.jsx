@@ -3,7 +3,7 @@ import './intro.css'
 export default function Intro(){
   return(
       <div>
-          <h1 className='Aboutme'>About me</h1>
+          {/* <h1 className='Aboutme'>About me</h1> */}
           <p className='Pbackground'>
             I'm a Junior Full Stack Web Developer looking for opportunities to enhance my knowledge.
             I graduated from SoyHenry's Bootcamp after 800+ hours of programming.
