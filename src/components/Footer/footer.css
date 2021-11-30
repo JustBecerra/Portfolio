@@ -30,6 +30,8 @@
     background: linear-gradient(to bottom, #CE8523 0%, #081F2E 50%, #000000 100%); */
     width:600px;
     height:80px;
+    position:absolute;
+    left:1px;
 }
 
 .textito{

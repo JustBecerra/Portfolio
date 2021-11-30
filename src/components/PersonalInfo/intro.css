@@ -1,5 +1,4 @@
 .Pbackground{
-  /* font-family:'sans-serif'; */
   color:blanchedalmond;
   margin-left: 20px;
   width:800px;
@@ -9,6 +8,7 @@
   top:10px;
   left:175px;
   border: 5px double #074f92;
+  margin-top: 50px;
 }
 
 body{
@@ -16,7 +16,8 @@ body{
 }
 
 .Aboutme{
+  color:blanchedalmond;
   position:absolute;
-  bottom:-100px;
+  bottom:-140px;
   left:500px;
 }

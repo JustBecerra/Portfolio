@@ -1,6 +1,7 @@
 import React from 'react'
-// import { AudioCard, VideoCard } from 'material-ui-player'
+import ReactPlayer from 'react-player'
 import './proyects.css'
+import { Container } from '@material-ui/core'
 
 export default function Proyects(){
     return(
@@ -16,11 +17,13 @@ export default function Proyects(){
                     consumes data from an API through a Back End developed in nodeJS using Express,
                     adding new functionalities to the original API.
                 </p>
-                {/* <VideoCard src={'https://vimeo.com/640730517/a54e463073'} /> */}
+                <Container className='PIvideo'>
+                  <ReactPlayer className='PIvideo' url='https://vimeo.com/640730517/a54e463073'/>
+                </Container>
             </div>
             <div>
                 <a className='links' href="https://huellitas.vercel.app/home"> 
-                  Social media App
+                  Social Media App
                 </a>
                 <p className='parrafo'>
                     Web social app I developed along with some friends where you can post lost, for adoption or found pets. 
@@ -29,8 +32,12 @@ export default function Proyects(){
                     The objective of this app is unifying pets announcement in one place so information can be easier to find. 
                     We used MongoDB, TypeScript, WebSocket, Leaflet, Passport and Firebase among others.
                 </p>
-                {/* <VideoCard src={'https://www.youtube.com/watch?v=VXivMZ0iOYU'}/> */}
+                <Container className='PGvideo'>
+                  <ReactPlayer controls={true} url='https://www.youtube.com/watch?v=VXivMZ0iOYU' />
+                </Container>
+                
             </div>
+            <h2 className='thankstext'>Hope you liked it, if you wish to contact me, you can go ahead and check below.</h2>
         </div>
     )
 }
