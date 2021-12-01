@@ -18,7 +18,7 @@ import luztech from '../imgs/luztech.png'
 export default function Techs(translate){
     return(
         <div >
-            {translate === false ?
+            {translate.translate === false ?
             <h1 className='techtitle'>
                 Technologies
             </h1>

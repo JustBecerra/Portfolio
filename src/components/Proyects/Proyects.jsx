@@ -6,19 +6,19 @@ import { Container } from '@material-ui/core'
 export default function Proyects(translate){
     return(
         <div className='container'>
-            {translate === false ?
+            {translate.translate === false ?
             <h1 className='titulo'>My Proyects</h1>
             :
             <h1 className='titulo'>Mis Proyectos</h1>
             }
             <div>
-                {translate === false ?
+                {translate.translate === false ?
                 <h2 className='projectname'>Videogame App</h2>
                 :
                 <h2 className='projectname'>App de videojuegos</h2>
                 }
                 
-                {translate === false ? 
+                {translate.translate === false ? 
                 <a className='links' href="https://justvideogames.vercel.app">
                   Check it out yourself
                 </a>
@@ -27,7 +27,7 @@ export default function Proyects(translate){
                   Compruébalo tú mismo
                 </a>
                 }
-                {translate === false ? 
+                {translate.translate === false ? 
                  <p className='parrafo'>
                     Development of a SPA using React for the Front End, and Redux as stage management.
                     The components were developed with CSS without the use of external libraries. It
@@ -47,13 +47,13 @@ export default function Proyects(translate){
                 </Container>
             </div>
             <div>
-                {translate === false ? 
+                {translate.translate === false ? 
                  <h2 className='projectname'>Social Media App</h2>
                 :  
                  <h2 className='projectname'>Red Social</h2>
                 }
                 
-                {translate === false ?
+                {translate.translate === false ?
                 <a className='links' href="https://huellitas.vercel.app/home"> 
                   Check it out yourself
                 </a>
@@ -62,7 +62,7 @@ export default function Proyects(translate){
                   Compruébalo tú mismo
                 </a>
                 }
-                {translate === false ?
+                {translate.translate === false ?
                   <p className='parrafo'>
                   Web social app I developed along with some friends where you can post lost, for adoption or found pets. 
                   We provide a map to locate the desired pet along with a real time chat to coordinate with other users.
@@ -83,7 +83,7 @@ export default function Proyects(translate){
                   <ReactPlayer className='PGvideo' controls={true} url='https://www.youtube.com/watch?v=VXivMZ0iOYU' />
                 </Container>
             </div>
-            {translate === false ?
+            {translate.translate === false ?
             <p className='thankstext'>Hope you liked it, if you wish to contact me, you can go ahead and check below.</p>
              :
              <p className='thankstext'>Espero que les haya gustado, si desea ponerse en contacto conmigo, puede seguir adelante y consultar a continuación.</p>

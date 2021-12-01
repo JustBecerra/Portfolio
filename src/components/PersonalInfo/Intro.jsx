@@ -2,9 +2,10 @@ import './intro.css'
 import programmer from '../imgs/programmer.gif'
 
 export default function Intro(translate){
+  
   return(
       <div>
-          {translate === false ?
+          {translate.translate === false ?
           <h1 className='Aboutme'>
             About me 
           </h1> 
@@ -13,7 +14,7 @@ export default function Intro(translate){
             Sobre mi 
           </h1> 
           }
-          {translate === false ? 
+          {translate.translate === false ? 
           <p className='Pbackground'>
             I'm a Junior Full Stack Web Developer looking for opportunities to enhance my knowledge.
             I graduated from SoyHenry's Bootcamp after 800+ hours of programming.
