@@ -1,10 +1,12 @@
 .container{
-  margin-top: 200px;
+  /* margin-top: 200px; */
   margin-left: 20px;
 }
 
 .parrafo{
   color:blanchedalmond;
+  position:relative;
+  bottom:170px;
 }
 
 .titulo{
@@ -12,6 +14,7 @@
   width:200px;
   position:relative;
   left:500px;
+  bottom:200px;
 }
 
 .projectname{
@@ -19,7 +22,7 @@
   text-decoration:wavy;
   font-size: 20px;
   position:relative;
-  top:38px;
+  bottom:150px;
 }
 
 .links{
@@ -29,25 +32,27 @@
   width:100px;
   position:relative;
   left:200px;
+  bottom:185px;
 }
 
 .PIvideo{
   width:600px;
   position:relative;
   left:270px;
+  bottom:180px;
 }
 
 .PGvideo{
   width:600px;
   position:relative;
   left:260px;
-  top:30px;
+  bottom:150px;
 }
 
 .thankstext{
   color:blanchedalmond;
   width:525px;
   position:relative;
-  top:150px;
+  bottom:75px;
   left:350px;
 }

@@ -4,6 +4,34 @@
   /* width:600px; */
 }
 
+.ojalaande{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  
+}
+
+/* @media screen and (max-width:766px) {
+  .imagenfondo{
+    background-image: url('../src/components/imgs/night\ road.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    height:650px;
+    width:100%
+  }
+
+  .profilePic{
+    width:225px;
+    height:225px;
+    border-radius: 100px;
+    position:relative;
+    left:200px;
+    top:80px;
+  }
+
+} */
+
 .languagelogo{
   width:35px;
   height:35px;
@@ -21,6 +49,7 @@
   background-size: cover;
   box-sizing: border-box;
   height:650px;
+  width:100%;
 }
 
 body{

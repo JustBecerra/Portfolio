@@ -33,7 +33,7 @@ function App() {
   const [translate,setTranslate] = useState(false)
   
   return (
-    <div>
+    <div className='ojalaande'>
       <Container >
         <Switch 
           // className='navbar'
