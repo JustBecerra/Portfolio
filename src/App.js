@@ -34,9 +34,9 @@ function App() {
   
   return (
     <div className='ojalaande'>
-      <Container >
+      <Container className='navbar'>
         <Switch 
-          // className='navbar'
+          className='navbarBG'
           checked={translate}
           onChange={() => setTranslate(!translate)}
         />

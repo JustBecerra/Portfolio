@@ -1,5 +1,6 @@
 .Pbackground{
   color:blanchedalmond;
+  z-index: 10px;
   /* margin-left: 20px; */
   width:500px;
   height:170px;
@@ -26,6 +27,6 @@ body{
 .Aboutme{
   color:blanchedalmond;
   position:absolute;
-  bottom:-180px;
+  bottom:-120px;
   left:530px;
 }
