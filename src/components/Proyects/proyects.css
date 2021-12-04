@@ -17,6 +17,48 @@
   bottom:200px;
 }
 
+@media (max-width:500px){
+  .projectname{
+    color:rgb(255, 255, 255);
+    text-decoration:wavy;
+    font-size: 20px;
+    position:relative;
+    bottom:180px !important;
+  }
+
+  .links{
+    color:rgb(15, 248, 229);
+    text-decoration:none;
+    font-size: 20px;
+    width:100px;
+    position:relative;
+    left:0% !important;
+    bottom:185px;
+  }
+
+  .PIvideo{
+    width:100% !important;
+    position:relative;
+    left:0% !important;
+    bottom:180px;
+  }
+
+  .PGvideo{
+    width:100% !important;
+    position:relative;
+    left:0% !important;
+    bottom:150px;
+  }
+
+  .thankstext{
+    color:blanchedalmond;
+    width:95% !important;
+    position:relative;
+    bottom:75px;
+    left:0% !important;
+  }
+}
+
 .projectname{
   color:rgb(255, 255, 255);
   text-decoration:wavy;

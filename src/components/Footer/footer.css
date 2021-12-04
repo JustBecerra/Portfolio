@@ -35,6 +35,28 @@
     bottom:50px;
 }
 
+@media (max-width:500px){
+    .footer{
+        
+        border-top:solid 2px rgb(255, 255, 255);
+        width:100% !important;
+        height:80px;
+        position:relative;
+        left: 0% !important;
+        bottom:50px;
+    }
+
+    .logoLinkedIn{
+        width:100%;
+        border-radius: 20px;
+    }
+
+    .logoGitHub{
+        width:100%;
+        border-radius: 20px;
+    }
+}
+
 .textito{
     width:400px;
     height:100px;
