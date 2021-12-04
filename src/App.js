@@ -33,7 +33,7 @@ function App() {
   const [translate,setTranslate] = useState(false)
   
   return (
-    <div className='ojalaande'>
+    <div>
       <Container className='navbar'>
         <Switch 
           className='navbarBG'
@@ -46,12 +46,12 @@ function App() {
          <img className='profilePic' src={pic} alt="nothing"/>
            <Typography variant="p" className='welcometext'>
              <ThemeProvider theme={theme}>
-              {translate === false ? <Box fontFamily='BlinkMacSystemFont' fontSize='65px'>
+              {translate === false ? <Box fontFamily='BlinkMacSystemFont'>
                   Welcome, <br/>
                   I'm Justo Becerra<br/>
                   Full Stack Developer<br/>
               </Box>
-               : <Box fontFamily='BlinkMacSystemFont' fontSize='65px'>
+               : <Box fontFamily='BlinkMacSystemFont'>
                 Bienvenido, <br/>
                 soy Justo Becerra<br/>
                 Full Stack Developer<br/>

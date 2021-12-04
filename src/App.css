@@ -4,7 +4,7 @@
 }
 
 .navbarBG{
-  background-color: #09cce6;
+  background-color: #ffffff;
   border-top-left-radius: 18px;
   border-bottom-left-radius: 18px;
   background:solid;
@@ -17,7 +17,7 @@
   z-index: 1;
   border-top-right-radius: 18px;
   border-bottom-right-radius: 18px;
-  background-color:#09cce6;
+  background-color:#ffffff;
   position:absolute;
   top:0px;
 }
@@ -35,6 +35,45 @@
   width:100%;
 }
 
+@media (max-width:500px){
+  .imagenfondo{
+    background-image: url('../src/components/imgs/night\ road.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position:initial; */
+    box-sizing: border-box;
+    width:100% !important;
+    height:500px !important;
+  }
+
+  .profilePic{
+    width:45% !important;
+    height:30% !important;
+    border-radius: 20px !important;
+    position:relative;
+    left:5% !important;
+    top:10%;
+  }
+
+  .welcometext{
+    color:whitesmoke;
+    font-size:25px !important;
+    /* width:15px !important;
+    height:15px !important; */
+    position:absolute;
+    left:10% !important;
+    top:45% !important;
+  }
+
+  .residencetext{
+    color:whitesmoke;
+    font-size:15px !important;
+    position:absolute;
+    left:10% !important;
+    top:60% !important;
+  }
+}
+
 body{
   background-color: #242526;
 }
@@ -50,7 +89,7 @@ body{
 }
 
 .welcometext{
-  font-size:50px;
+  font-size:60px;
   position:absolute;
   right:4%;
   top:15%;
