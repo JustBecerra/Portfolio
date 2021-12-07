@@ -83,11 +83,11 @@ export default function Proyects(translate){
                   <ReactPlayer className='PGvideo' controls={true} url='https://www.youtube.com/watch?v=VXivMZ0iOYU' />
                 </Container>
             </div>
-            {translate.translate === false ?
-            <p className='thankstext'>Hope you liked it, if you wish to contact me, you can go ahead and check below.</p>
+            {/* {translate.translate === false ?
+            <h5 className='thankstext'>Hope you liked it, if you wish to contact me, you can go ahead and check below.</h5>
              :
-             <p className='thankstext'>Espero que les haya gustado, si desea ponerse en contacto conmigo, puede seguir adelante y consultar a continuación.</p>
-            }
+             <h5 className='thankstext'>Espero que les haya gustado, si desea ponerse en contacto conmigo, puede seguir adelante y consultar a continuación.</h5>
+            } */}
             
         </div>
     )

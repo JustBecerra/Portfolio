@@ -33,7 +33,7 @@ function App() {
   const [translate,setTranslate] = useState(false)
   
   return (
-    <div>
+    <div className='imagenfondo'>
       <Container className='navbar'>
         <Switch 
           className='navbarBG'
@@ -42,7 +42,6 @@ function App() {
         />
         {translate === false ? <img className='languagelogo' src={britishlogo}/> : <img className='languagelogo' src={spanishlogo}/>}
       </Container>
-       <div className='imagenfondo'> 
          <img className='profilePic' src={pic} alt="nothing"/>
            <Typography variant="p" className='welcometext'>
              <ThemeProvider theme={theme}>
@@ -71,15 +70,10 @@ function App() {
               }
               </ThemeProvider>
             </Typography>
-       </div>
-       <div>
-         <Intro  translate={translate}/>
+         <Intro  translate={translate}/>   
          <Techs translate={translate}/>
          <Proyects translate={translate}/>
-       </div>
-       <div>
          <Footer />
-       </div>
     </div>
   );
 }

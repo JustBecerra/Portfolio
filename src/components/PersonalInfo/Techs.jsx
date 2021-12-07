@@ -1,5 +1,5 @@
 import './techs.css'
-import { Box } from '@material-ui/core'
+import { Box, Grid, withWidth } from '@material-ui/core'
 import { ListItem } from '@material-ui/core'
 import jslogo from '../imgs/javascriptlogo.png'
 import tslogo from '../imgs/typescriptlogo.png'
@@ -17,7 +17,7 @@ import luztech from '../imgs/luztech.png'
 
 export default function Techs(translate){
     return(
-        <div >
+        <div className='grandiv'>
             {translate.translate === false ?
             <h1 className='techtitle'>
                 Technologies
@@ -28,66 +28,98 @@ export default function Techs(translate){
             </h1>
             }
             
-            <img className='luztech' src={luztech} alt='nada'/>
+            {/* <img className='luztech' src={luztech} alt='nada'/> */}
             
-            <Box
-            sx={{
-                display: 'grid',
-                width:600,
-                gap:1,
-                gridTemplateColumns: 'repeat(3, 1fr)',
-              }}
-              className='box'
+            <Grid container
+                height='70'
+                width='100'
+                display='flex'
+                alignItems='center'
+                justifyContent='center'
+                spacing={2} 
+                direction="row"
+                lg={10}
+                xs={6}
             >
-                <ListItem className='singletech'>
-                    JavaScript
-                    <img className='jslogo' src={jslogo} alt='nada'/>    
-                </ListItem>
-                <ListItem className='singletech'>
+            <Grid item container lg={10} xs={6} direction="row" >
+                <Grid item lg={3} xs={2} className='singletech' >
+                    <h4 className='techname'>
+                      JavaScript
+                    </h4>
+                    <img className='logos' src={jslogo} alt='nada'/>    
+                </Grid>
+                <Grid item lg={3} xs={3} className='singletech'>
+                    <h4 className='techname'>
                     TypeScript
+                    </h4>
                     <img className='tslogo' src={tslogo} alt='nada'/>
-                </ListItem>
-                <ListItem className='singletech'>
+                </Grid>
+                <Grid item lg={3} xs={3} className='singletech'>
+                    <h4 className='techname'>
                     ReactJS
-                    <img className='htmllogo' src={reactlogo} alt='nada'/>
-                </ListItem>
-                <ListItem className='singletech'>
+                    </h4>
+                    <img className='logos' src={reactlogo} alt='nada'/>
+                </Grid>
+                <Grid item lg={3} xs={3} className='singletech'>
+                    <h4 className='techname'>
                     Redux
-                    <img className='reduxlogo' src={reduxlogo} alt='nada'/>
-                </ListItem>
-                <ListItem className='singletech'>
+                    </h4>
+                    <img className='logos' src={reduxlogo} alt='nada'/>
+                </Grid>
+            </Grid>
+            <Grid item container lg={10} xs={6} direction="row" >
+                <Grid item lg={3} xs={3} className='singletech'>
+                    <h4 className='techname'>
                     MongoDB
-                    <img className='mongologo' src={mongologo} alt='nada'/>
-                </ListItem>
-                <ListItem className='singletech'>
+                    </h4>
+                    <img className='logos' src={mongologo} alt='nada'/>
+                </Grid>
+                <Grid item lg={3} xs={3} className='singletech'>
+                    <h4 className='techname'>
                     NodeJS
-                    <img className='htmllogo' src={nodelogo} alt='nada'/>    
-                </ListItem>
-                <ListItem className='singletech'>
+                    </h4>
+                    <img className='logos' src={nodelogo} alt='nada'/>    
+                </Grid>
+                <Grid item lg={3} xs={3} className='singletech'>
+                    <h4 className='techname'>
                     WebSocket
-                    <img className='socketlogo' src={socketlogo} alt='nada'/>    
-                </ListItem>
-                <ListItem className='singletech'>
+                    </h4>
+                    <img className='logos' src={socketlogo} alt='nada'/>    
+                </Grid>
+                <Grid item lg={3} xs={3} className='singletech'>
+                    <h4 className='techname'>
                     Express
+                    </h4>
                     <img className='expresslogo' src={expresslogo} alt='nada'/>    
-                </ListItem>
-                <ListItem className='singletech'>
+                </Grid>
+            </Grid>
+            <Grid item container lg={10} xs={6} direction="row" >
+                <Grid item lg={3} xs={3} className='singletech'>
+                    <h4 className='techname'>
                     PostgresSQL
-                    <img className='socketlogo' src={postgreslogo} alt='nada'/>
-                </ListItem>
-                <ListItem className='singletech'>
+                    </h4>
+                    <img className='logos' src={postgreslogo} alt='nada'/>
+                </Grid>
+                <Grid item lg={3} xs={3} className='singletech'>
+                    <h4 className='techname'>
                     Sequelize
-                    <img className='jslogo' src={sequelizelogo} alt='nada'/>    
-                </ListItem>
-                <ListItem className='singletech'>
+                    </h4>
+                    <img className='logos' src={sequelizelogo} alt='nada'/>    
+                  </Grid>
+                  <Grid item lg={3} xs={3} className='singletech'>
+                    <h4 className='techname'>
                     HTML5
-                    <img className='htmllogo' src={htmllogo} alt='nada'/>    
-                </ListItem>
-                <ListItem className='singletech'>
+                    </h4>
+                    <img className='logos' src={htmllogo} alt='nada'/>    
+                  </Grid>
+                  <Grid item lg={3} xs={3} className='singletech'>
+                    <h4 className='techname'>
                     CSS
-                    <img className='csslogo' src={csslogo} alt='nada'/>    
-                </ListItem>
-            </Box>
+                    </h4>
+                    <img className='logos' src={csslogo} alt='nada'/>    
+                  </Grid>
+                </Grid>
+           </Grid>
         </div>
     )
 }

@@ -57,6 +57,14 @@
     bottom:75px;
     left:0% !important;
   }
+
+  .titulo{
+    color:blanchedalmond;
+    width:200px;
+    position:relative;
+    left:0% !important;
+    bottom:200px;
+  }
 }
 
 .projectname{
@@ -93,6 +101,7 @@
 
 .thankstext{
   color:blanchedalmond;
+  margin: 0;
   width:525px;
   position:relative;
   bottom:75px;

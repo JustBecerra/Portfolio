@@ -4,7 +4,7 @@ import programmer from '../imgs/programmer.gif'
 export default function Intro(translate){
   
   return(
-      <div>
+      <div className='introduction'>
           {translate.translate === false ?
           <h1 className='Aboutme'>
             About me 
