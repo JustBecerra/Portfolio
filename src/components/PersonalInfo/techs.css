@@ -1,24 +1,21 @@
 
 @media (max-width:500px){
-    .luztech{
-        width:100% !important;
-        height:50% !important;
-        position:relative;
-        left:0% !important;
-        bottom:20% !important;
-    }
-
     .techtitle{
         color:#ffffffd7;
         width:50% !important;
-        position:relative;
-        left:25% !important;
-        top:50% !important;
-        margin:0px;
+        position:relative !important;
+        left:-20% !important;
+        top:30% !important;
+        margin:0px !important;
     }
     
     .techname{
         font-size: 50%!important;
+    }
+    
+    .centertech{
+        display: flex;
+        align-content:center;
     }
 
     .singletech{
@@ -27,64 +24,38 @@
         outline: none;
         width:50% !important;
         box-shadow: 0px 0px 12px 2px #09cce6;
-        /* position:absolute;
-        left:0% !important;
-        bottom:420% !important; */
     }
-    
-    .box{
-        width:20%;
-        /* display: flex;
-        justify-content:space-between; */
-        
-    }
-
-    .jslogo{
-        width:50% !important;
-        position:relative;
-        left:10% !important;
+     
+    .grandiv{
+        width:90%; 
+        height:100vh;
+        display:flex; 
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 60% !important;
+        margin-bottom: 20% !important;
     }
     
     .tslogo{
-        width:50% !important;
+        width:24%;
+        /* height:20%; */
         position:relative;
-        left:10% !important;
-    }
-    
-    .reduxlogo{
-        width: 50% !important;;
-        position:relative;
-        left:20% !important
-    }
-    
-    .socketlogo{
-        width:50% !important;
-        position:relative;
-        left:10% !important
-    }
-    
-    .mongologo{
-        width:50% !important;
-        position:relative;
-        left:10% !important
+        left:40%;
     }
     
     .expresslogo{
-        width:100% !important;
+        width:30%;
+        /* height:20%; */
         position:relative;
-        left:5% !important
+        left:35%;
     }
     
-    .htmllogo{
-        width:50% !important;
+    .logos{
+        width:15%;
+        /* height:20%; */
         position:relative;
-        left:10% !important;
-    }
-    
-    .csslogo{
-        width:50% !important;
-        position:relative;
-        left:10% !important
+        left:40%;
     }
 }
 

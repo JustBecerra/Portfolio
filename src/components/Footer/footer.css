@@ -7,6 +7,12 @@
     left:20px; */
 }
 
+.logoGitHub:hover{
+    height:50px;
+    width:50px;
+    border-radius: 25px;
+}
+
 .logoLinkedIn{
     height:40px;
     width:40px;
@@ -14,6 +20,12 @@
     /* position: relative;
     left:180px;
     bottom:105px; */
+}
+
+.logoLinkedIn:hover{
+    height:50px;
+    width:50px;
+    border-radius: 25px;
 }
 
 .espaciologos{
@@ -64,15 +76,6 @@
     position:relative;
     top:1570px;
     left:10px;
-}
-
-.logoGmail{
-    height:40px;
-    width:40px;
-    border-radius: 20px;
-    position:relative;
-    /* bottom:215px; */
-    /* left:350px; */
 }
 
 .gmailtext{

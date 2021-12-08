@@ -31,18 +31,17 @@ export default function Techs(translate){
             {/* <img className='luztech' src={luztech} alt='nada'/> */}
             
             <Grid container
-                height='70'
-                width='100'
                 display='flex'
                 alignItems='center'
                 justifyContent='center'
-                spacing={2} 
+                rowSpacing={0}
                 direction="row"
                 lg={10}
-                xs={6}
+                xs={12}
+                className='centertech'
             >
-            <Grid item container lg={10} xs={6} direction="row" >
-                <Grid item lg={3} xs={2} className='singletech' >
+            <Grid item container lg={10} xs={12} direction="row" >
+                <Grid item lg={3} xs={3} className='singletech' >
                     <h4 className='techname'>
                       JavaScript
                     </h4>
@@ -67,7 +66,7 @@ export default function Techs(translate){
                     <img className='logos' src={reduxlogo} alt='nada'/>
                 </Grid>
             </Grid>
-            <Grid item container lg={10} xs={6} direction="row" >
+            <Grid item container lg={10} xs={12} direction="row" >
                 <Grid item lg={3} xs={3} className='singletech'>
                     <h4 className='techname'>
                     MongoDB
@@ -93,7 +92,7 @@ export default function Techs(translate){
                     <img className='expresslogo' src={expresslogo} alt='nada'/>    
                 </Grid>
             </Grid>
-            <Grid item container lg={10} xs={6} direction="row" >
+            <Grid item container lg={10} xs={12} direction="row" >
                 <Grid item lg={3} xs={3} className='singletech'>
                     <h4 className='techname'>
                     PostgresSQL

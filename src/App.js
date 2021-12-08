@@ -57,15 +57,15 @@ function App() {
               </Box>}
               </ThemeProvider>
             </Typography>
-            <Typography variant='h5' className='residencetext' >
+            <Typography variant='h5'  >
             <ThemeProvider theme={theme}>
               {translate === false ? 
-              <Box fontFamily='BlinkMacSystemFont' text-underline='1px'>
-               residing in Argentina
+              <Box fontFamily='BlinkMacSystemFont' text-underline='1px' className='residencetext'>
+              residing in Argentina
               </Box>
               :
-              <Box fontFamily='BlinkMacSystemFont' text-underline='1px'>
-                residiendo en Argentina
+              <Box fontFamily='BlinkMacSystemFont' text-underline='1px' className='residencetextESP'>
+              residiendo en Argentina
               </Box>
               }
               </ThemeProvider>

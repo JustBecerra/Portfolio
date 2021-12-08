@@ -68,7 +68,7 @@
   .residencetext{
     color:whitesmoke;
     font-size:15px !important;
-    position:absolute;
+    position:relative;
     left:15% !important;
     top:60% !important;
   }
@@ -80,8 +80,8 @@ body{
 
 .profilePic{
   z-index: 0;
-  width:450px;
-  height:450px;
+  width:35%;
+  height:75%;
   border-radius: 100px;
   position:relative;
   left:150px;
@@ -99,6 +99,12 @@ body{
 
 .residencetext{
   position:absolute;
-  right:29%;
+  right:27%;
+  top:55%;
+}
+
+.residencetextESP{
+  position:absolute;
+  right:25%;
   top:55%;
 }
