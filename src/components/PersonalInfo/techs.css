@@ -71,12 +71,17 @@
    
 }
 
+.centertech{
+    display: flex;
+    align-content:center;
+}
+
 .techtitle{
     color:#ffffffd7;
     width:100px;
     position:relative;
-    left:-7%;
-    top:0%;
+    left:-2%;
+    top:7%;
     margin:0px;
 }
 
@@ -128,12 +133,12 @@
     width:30%;
     /* height:20%; */
     position:relative;
-    left:35%;
+    left:32%;
 }
 
 .tslogo{
     width:24%;
     /* height:20%; */
     position:relative;
-    left:40%;
+    left:35%;
 }

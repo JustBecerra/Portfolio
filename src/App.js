@@ -31,7 +31,10 @@ function App() {
     },
   });
   const [translate,setTranslate] = useState(false)
-  
+  // const [animation,setAnimation] = useState(true)
+  // setTimeout(function(){ setAnimation(false) }, 3000);
+
+  // if(animation === false){
   return (
     <div className='imagenfondo'>
       <Container className='navbar'>
@@ -39,6 +42,7 @@ function App() {
           className='navbarBG'
           checked={translate}
           onChange={() => setTranslate(!translate)}
+          color='primary'
         />
         {translate === false ? <img className='languagelogo' src={britishlogo}/> : <img className='languagelogo' src={spanishlogo}/>}
       </Container>
@@ -75,7 +79,15 @@ function App() {
          <Proyects translate={translate}/>
          <Footer />
     </div>
-  );
+  )
+// }
+// else {
+//     return(
+//       <div className='entryanimation'>
+//         Best Developer Ever
+//       </div>
+//     )
+//   }
 }
 
 export default App;
