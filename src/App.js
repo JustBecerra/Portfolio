@@ -51,9 +51,13 @@ function App() {
             offset={-70}
             duration={500}
           >
-            <Button className='buttonscroll'>
-              About
+            {translate === false ? <Button className='buttonscroll'>
+              About me
+            </Button> :
+              <Button className='buttonscroll'>
+              Sobre mi
             </Button>
+            }
           </Link>
           <Link
             activeClass="active"
@@ -63,9 +67,13 @@ function App() {
             offset={-70}
             duration={500}
           >
-            <Button className='buttonscroll'>
+            {translate === false ? <Button className='buttonscroll'>
               Technologies
+            </Button> :
+              <Button className='buttonscroll'>
+              Tecnologías
             </Button>
+            }
           </Link>
           <Link
           activeClass="active"
@@ -75,9 +83,13 @@ function App() {
           offset={-70}
           duration={500}
         >
-          <Button className='buttonscroll'>
-            Projects
-          </Button>
+          {translate === false ? <Button className='buttonscroll'>
+              Projects
+            </Button> :
+              <Button className='buttonscroll'>
+              Proyectos
+            </Button>
+            }
         </Link>
         </Container>
         </AppBar>
