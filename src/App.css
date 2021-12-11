@@ -3,23 +3,31 @@
   z-index: 1;
 }
 
+.appbar{
+  display:flex;
+  /* flex-direction: row; */
+  /* justify-content: space-around; */
+}
+
 .navbarBG{
-  background-color: #ffffff;
+  background-color: #3f51b5;
   border-top-left-radius: 18px;
   border-bottom-left-radius: 18px;
   background:solid;
   z-index: 1;
 }
 
+.buttonscroll{
+  margin-left: 3%;
+}
+
 .languagelogo{
-  width:38px;
-  height:38px;
+  width:3%;
   z-index: 1;
-  border-top-right-radius: 18px;
-  border-bottom-right-radius: 18px;
-  background-color:#ffffff;
-  position:absolute;
-  top:0px;
+  background-color:transparent;
+  position:fixed;
+  top:0%;
+  left:0.5%;
 }
 
 .achicarespacio{
@@ -31,7 +39,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
-  height:95vh;
+  height:100vh;
   width:100%;
 }
 

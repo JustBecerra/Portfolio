@@ -6,12 +6,12 @@ import Techs from './components/PersonalInfo/Techs'
 import Proyects from './components/Proyects/Proyects'
 import Footer from './components/Footer/Footer'
 import '../src/components/Proyects/proyects.css'
-import { Box, Container, Switch, Typography } from '@material-ui/core';
+import { AppBar, Box, Button, Container, Switch, Typography } from '@material-ui/core';
 import { createTheme } from '@material-ui/core';
 import { ThemeProvider } from '@material-ui/styles';
 import britishlogo from '../src/components/imgs/britishlogo.png'
 import spanishlogo from '../src/components/imgs/spanishlogo.png'
-
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function App() {
   const theme = createTheme({
@@ -31,20 +31,56 @@ function App() {
     },
   });
   const [translate,setTranslate] = useState(false)
-  // const [animation,setAnimation] = useState(true)
-  // setTimeout(function(){ setAnimation(false) }, 3000);
-
-  // if(animation === false){
   return (
     <div className='imagenfondo'>
       <Container className='navbar'>
-        <Switch 
-          className='navbarBG'
-          checked={translate}
-          onChange={() => setTranslate(!translate)}
-          color='primary'
-        />
-        {translate === false ? <img className='languagelogo' src={britishlogo}/> : <img className='languagelogo' src={spanishlogo}/>}
+        <AppBar >
+          <Container className='appbar'>
+          <Switch 
+            className='navbarBG'
+            checked={translate}
+            onChange={() => setTranslate(!translate)}
+            color='default'
+          />
+          {translate === false ? <img className='languagelogo' src={britishlogo}/> : <img className='languagelogo' src={spanishlogo}/>}
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <Button className='buttonscroll'>
+              About
+            </Button>
+          </Link>
+          <Link
+            activeClass="active"
+            to="techs"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <Button className='buttonscroll'>
+              Technologies
+            </Button>
+          </Link>
+          <Link
+          activeClass="active"
+          to="proyects"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          <Button className='buttonscroll'>
+            Projects
+          </Button>
+        </Link>
+        </Container>
+        </AppBar>
       </Container>
          <img className='profilePic' src={pic} alt="nothing"/>
            <Typography variant="p" className='welcometext'>
@@ -74,20 +110,12 @@ function App() {
               }
               </ThemeProvider>
             </Typography>
-         <Intro  translate={translate}/>   
+         <Intro translate={translate}/>   
          <Techs translate={translate}/>
          <Proyects translate={translate}/>
          <Footer />
     </div>
   )
-// }
-// else {
-//     return(
-//       <div className='entryanimation'>
-//         Best Developer Ever
-//       </div>
-//     )
-//   }
 }
 
 export default App;

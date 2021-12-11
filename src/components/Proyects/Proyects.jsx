@@ -5,7 +5,7 @@ import { Container } from '@material-ui/core'
 
 export default function Proyects(translate){
     return(
-        <div className='container'>
+        <div id='proyects' className='container'>
             {translate.translate === false ?
             <h1 className='titulo'>My Proyects</h1>
             :
