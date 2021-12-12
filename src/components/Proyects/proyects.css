@@ -1,21 +1,3 @@
-.container{
-  /* margin-top: 200px; */
-  margin-left: 20px;
-}
-
-.parrafo{
-  color:blanchedalmond;
-  position:relative;
-  bottom:170px;
-}
-
-.titulo{
-  color:blanchedalmond;
-  width:200px;
-  position:relative;
-  left:43%;
-  bottom:200px;
-}
 
 @media (max-width:500px){
   .projectname{
@@ -67,22 +49,57 @@
   }
 }
 
+.container{
+  /* display: flex;
+  flex-direction: row; */
+  margin-right: 20%;
+  margin-bottom:5%;
+  background-color: rgb(22, 22, 27);
+  width:100%;
+  height:60%;
+  position:relative;
+  bottom:20%;
+}
+
+.cardcontainer{
+  margin-right: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  width: 35%;
+  height: 70%;
+}
+
+/* .parrafo{
+  color:blanchedalmond;
+  position:relative;
+  bottom:170px;
+} */
+
+.titulo{
+  color:blanchedalmond;
+  width:200px;
+  position:relative;
+  left:43%;
+  bottom:0%;
+}
+
 .projectname{
   color:rgb(255, 255, 255);
-  text-decoration:wavy;
+  text-decoration:none;
   font-size: 20px;
   position:relative;
-  bottom:150px;
+  /* bottom:150px; */
 }
 
 .links{
-  color:rgb(15, 248, 229);
+  color:#039610;
   text-decoration:none;
   font-size: 20px;
   width:100px;
   position:relative;
-  left:200px;
-  bottom:185px;
+  /* left:200px;
+  bottom:185px; */
 }
 
 .links:hover{
@@ -96,6 +113,15 @@
   bottom:180px;
 }
 
+.ProjectCard{
+  border: 3px solid rgb(4, 117, 19);
+  width:100%;
+  height:70%;
+  margin:0;
+  /* background-image: url('../imgs/joystick.png');
+  background-repeat: no-repeat; */
+}
+
 .PGvideo{
   width:600px;
   position:relative;
@@ -105,9 +131,8 @@
 
 .thankstext{
   color:blanchedalmond;
-  margin: 0;
-  width:50%;
+  width:70%;
   position:relative;
-  bottom:75px;
+  top:35%;
   left:30%;
 }

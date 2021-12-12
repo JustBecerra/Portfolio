@@ -40,12 +40,12 @@ body{
 .Pbackground{
   /* background-color:gray; */
   width:80%;
-  height:100%;
+  height:98%;
   opacity:0.6;
   margin-right: 10%;
-  border: 5px double #074f92;
+  border: 5px double #03680b;
   position:relative;
-  left:27%;
+  left:18%;
 }
 
 .paragraph{
@@ -55,25 +55,40 @@ body{
   left:2%
 }
 
+.born{
+  color:rgba(255, 255, 255, 0.705);
+  position:absolute;
+  left:20%;
+}
+
+.nationality{
+  color:rgba(255, 255, 255, 0.705);
+  position:absolute;
+  left:20%;
+  top:15%;
+}
+
 .programmergif{
   z-index: 0;
   width:25%;
   height:50%;
   margin-left: 5%;
   position:relative;
-  right:32%;
+  right:30%;
   top:5%
 }
 
 .introduction{
+  background-color: rgb(22, 22, 27);
   display: flex;
   justify-content: center;
+  width:100%;
   height:60%;
   margin-top: 15%;
   margin-bottom: 15%;
   position: relative;
   top:20%;
-  right:10%;
+  /* right:10%; */
 }
 
 .Aboutme{
@@ -81,5 +96,5 @@ body{
   position:absolute;
   margin-bottom: 3%;
   bottom:90%;
-  left:53%;
+  left:45%;
 }

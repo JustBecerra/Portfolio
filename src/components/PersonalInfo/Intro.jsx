@@ -14,6 +14,12 @@ export default function Intro(translate){
             Sobre mi 
           </h1> 
           }
+          <h3 className='born'>
+            Born: 21/09/2000
+          </h3>
+          <h3 className='nationality'> 
+            Nationality: Argentina
+          </h3>
           <div className='Pbackground'>
           {translate.translate === false ? 
           <p className='paragraph'>
