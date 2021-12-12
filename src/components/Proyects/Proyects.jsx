@@ -23,6 +23,12 @@ export default function Proyects(translate){
                 :
                 <h2 className='projectname'>App de videojuegos</h2>
                 }
+                <h4 className='PItechs'>
+                ReactJs<br/>
+                NodeJs<br/>
+                JavaScript<br/>
+                CSS3
+                </h4>
             </CardMedia>
             </Link>
             <Link href='https://huellitas.vercel.app/home' >     
@@ -32,6 +38,13 @@ export default function Proyects(translate){
                 :  
                  <h2 className='projectname'>App de Red Social</h2>
                 }
+                <h4 className='PGtechs'>
+                ReactJs<br/>
+                NodeJs<br/>
+                JavaScript<br/>
+                TypeScript<br/>
+                CSS3
+                </h4>
             </CardMedia>    
             </Link>
             </div>    

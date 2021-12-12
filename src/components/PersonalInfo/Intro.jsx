@@ -15,10 +15,13 @@ export default function Intro(translate){
           </h1> 
           }
           <h3 className='born'>
-            Born: 21/09/2000
+            Birthday: 21/09/2000
           </h3>
           <h3 className='nationality'> 
             Nationality: Argentina
+          </h3>
+          <h3 className='hobbies'> 
+            Hobbies: Gym rat and Geek
           </h3>
           <div className='Pbackground'>
           {translate.translate === false ? 
@@ -28,7 +31,7 @@ export default function Intro(translate){
             Hardworking, team player, precise and stoic.<br/>
             Fully capable and willing to work with others to achieve new goals.<br/>
             When I come face to face with a problem, I try to fix it myself but I'm not shy about asking others for help.<br/>
-            My goals for the future are to join a great group of developers, learn as much as I can and live abroad.
+            My goals for the future are to join a great group of developers and learn as much as I can.
           </p>
            :
            <p className='paragraph'>
@@ -37,7 +40,7 @@ export default function Intro(translate){
            Trabajador, jugador de equipo, preciso and estoico.<br/>
            Totalmente capaz y dispuesto a trabajar con otros para lograr nuevos objetivos.<br/>
            Cuando me encuentro con un problema, trato de solucionarlo yo mismo, pero no me da vergüenza pedir ayuda a los demás.<br/>
-           Mis objetivos para el futuro son unirme a un gran grupo de desarrolladores, aprender lo mas que pueda y vivir en el extranjero.
+           Mis objetivos para el futuro son unirme a un gran grupo de desarrolladores y aprender lo mas que pueda.
          </p>
          }
          </div>
