@@ -58,11 +58,11 @@ export default function Intro(translate){
           </h3>
           {translate.translate === false ?
           <h3 className='hobbiesAnswer'> 
-            : Gym and Geek
+            : Gym and history fan
           </h3>
           :
           <h3 className='hobbiesAnswer'> 
-            : Gimnasio y nerd
+            : Gimnasio y fan de historia
           </h3>
           }
           

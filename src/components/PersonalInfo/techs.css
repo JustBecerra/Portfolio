@@ -80,17 +80,9 @@
     color:#03680b;
     width:100px;
     position:relative;
-    left:-2%;
+    left:-3%;
     top:17%;
     margin:0px;
-}
-
-.grid{
-    /* width:50%; */
-    z-index:1;
-    /* position:relative;
-    left:24%;
-    bottom:100%; */
 }
 
 .geartech{
@@ -98,7 +90,7 @@
     width:4%;
     height:8%;
     position:relative;
-    left:11%;
+    left:9.5%;
     top:10%;
 }
 

@@ -50,8 +50,6 @@
 }
 
 .container{
-  /* display: flex;
-  flex-direction: row; */
   margin-right: 20%;
   margin-bottom:5%;
   background-color: rgb(22, 22, 27);
@@ -78,12 +76,6 @@
   height: 70%;
 }
 
-/* .parrafo{
-  color:blanchedalmond;
-  position:relative;
-  bottom:170px;
-} */
-
 .titulo{
   color:#03680b;
   width:200px;
@@ -96,22 +88,6 @@
   color:rgb(255, 255, 255);
   text-decoration:none;
   font-size: 20px;
-  /* position:relative; */
-  /* bottom:150px; */
-}
-
-.projectname:link{
-  text-decoration: none;
-}
-
-.links{
-  color:#039610;
-  text-decoration:none;
-  font-size: 20px;
-  width:100px;
-  position:relative;
-  /* left:200px;
-  bottom:185px; */
 }
 
 .PItechs{
@@ -130,6 +106,7 @@
 
 .ProjectCard{
   border: 3px solid #fcfcfc;
+  text-decoration: none;
   box-shadow: 10px 10px 12px 2px #d5dfd6;
   width:100%;
   height:100%;

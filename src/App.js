@@ -34,7 +34,7 @@ function App() {
   return (
     <div className='imagenfondo'>
       <Container className='navbar'>
-        <AppBar color='primary'>
+        <AppBar color='transparent'>
           <Container className='appbar'>
           <Switch 
             className='navbarBG'
@@ -51,10 +51,10 @@ function App() {
             offset={-70}
             duration={500}
           >
-            {translate === false ? <Button className='buttonscroll'>
+            {translate === false ? <Button style={{ color: '#FFFFFF'}} className='buttonscroll'>
               About me
             </Button> :
-              <Button className='buttonscroll'>
+              <Button style={{ color: '#FFFFFF'}} className='buttonscroll'>
               Sobre mi
             </Button>
             }
@@ -67,10 +67,10 @@ function App() {
             offset={-70}
             duration={500}
           >
-            {translate === false ? <Button className='buttonscroll'>
+            {translate === false ? <Button style={{ color: '#FFFFFF'}} className='buttonscroll'>
               Technologies
             </Button> :
-              <Button className='buttonscroll'>
+              <Button style={{ color: '#FFFFFF'}} className='buttonscroll'>
               Tecnologías
             </Button>
             }
@@ -83,10 +83,10 @@ function App() {
           offset={-70}
           duration={500}
         >
-          {translate === false ? <Button className='buttonscroll'>
+          {translate === false ? <Button style={{ color: '#FFFFFF'}} className='buttonscroll'>
               Projects
             </Button> :
-              <Button className='buttonscroll'>
+              <Button style={{ color: '#FFFFFF'}} className='buttonscroll'>
               Proyectos
             </Button>
             }

@@ -26,7 +26,7 @@
 .languagelogo{
   width:3%;
   z-index: 1;
-  background-color:transparent;
+  /* background-color:transparent; */
   position:fixed;
   top:0%;
   left:0.5%;

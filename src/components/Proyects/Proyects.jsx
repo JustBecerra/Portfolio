@@ -9,8 +9,7 @@ import blueprint from '../imgs/blueprintlogo.jpg'
 
 export default function Proyects(translate){
     return(
-        <div id='proyects' className='container'>
-          
+        <div id='proyects' className='container'>         
             {translate.translate === false ?
             <h1 className='titulo'>My Projects</h1>
             :
@@ -18,7 +17,7 @@ export default function Proyects(translate){
             }
             <img src={blueprint} className='BPlogo' alt='no hay nada'/>
             <div className='cardcontainer'>
-            <Link href='https://justvideogames.vercel.app' >     
+            <Link style={{ textDecoration: 'none' }} href='https://justvideogames.vercel.app' >     
             <CardMedia image={PIimg}  className='ProjectCard'>
                 {translate.translate === false ?
                 <h2 className='projectname'>Videogame App</h2>
@@ -33,7 +32,7 @@ export default function Proyects(translate){
                 </h4>
             </CardMedia>
             </Link>
-            <Link href='https://huellitas.vercel.app/home' >     
+            <Link style={{ textDecoration: 'none' }} href='https://huellitas.vercel.app/home' >     
             <CardMedia image={PGimg} className='ProjectCard'>
                 {translate.translate === false ? 
                  <h2 className='projectname'>Social Media App</h2>
