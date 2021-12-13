@@ -5,6 +5,7 @@ import { Card, Container, Link } from '@material-ui/core'
 import { CardMedia } from '@mui/material';
 import PIimg from '../imgs/joystick.png'
 import PGimg from '../imgs/paw.png'
+import blueprint from '../imgs/blueprintlogo.jpg'
 
 export default function Proyects(translate){
     return(
@@ -15,6 +16,7 @@ export default function Proyects(translate){
             :
             <h1 className='titulo'>Mis Proyectos</h1>
             }
+            <img src={blueprint} className='BPlogo' alt='no hay nada'/>
             <div className='cardcontainer'>
             <Link href='https://justvideogames.vercel.app' >     
             <CardMedia image={PIimg}  className='ProjectCard'>

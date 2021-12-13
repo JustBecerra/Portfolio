@@ -13,7 +13,7 @@ import postgreslogo from '../imgs/postgreslogo.png'
 import expresslogo from '../imgs/expresslogo.png'
 import htmllogo from '../imgs/htmllogo.png'
 import csslogo from '../imgs/csslogo.png'
-import luztech from '../imgs/luztech.png'
+import gear from '../imgs/gear.png'
 
 export default function Techs(translate){
     return(
@@ -28,7 +28,7 @@ export default function Techs(translate){
             </h1>
             }
             
-            {/* <img className='luztech' src={luztech} alt='nada'/> */}
+            <img className='geartech' src={gear} alt='nada'/>
             
             <Grid container
                 display='flex'

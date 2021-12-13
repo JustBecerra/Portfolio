@@ -1,7 +1,6 @@
 import './footer.css'
 import logoGitHub from '../imgs/logoGitHub.png'
 import logoLinkedIn from '../imgs/logoLinkedIn.png'
-import logoGmail from '../imgs/logoGmail.png'
 import Container from '@material-ui/core/Container'
 import Grid from '@material-ui/core/Grid'
 

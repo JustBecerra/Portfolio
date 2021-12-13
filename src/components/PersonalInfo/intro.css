@@ -33,17 +33,16 @@
   }
 }
 
-body{
-  font-family:"sans-serif";
-}
-
 .Pbackground{
-  /* background-color:gray; */
+  background: #000000;
+background: -moz-linear-gradient(top, #000000 0%, #062F02 50%, #0EC50B 100%);
+background: -webkit-linear-gradient(top, #000000 0%, #062F02 50%, #0EC50B 100%);
+background: linear-gradient(to bottom, #000000 0%, #062F02 50%, #0EC50B 100%);
   width:80%;
   height:98%;
   opacity:0.6;
   margin-right: 10%;
-  border: 5px double #03680b;
+  /* border: 5px double #03680b; */
   position:relative;
   left:18%;
 }
@@ -56,23 +55,58 @@ body{
 }
 
 .born{
-  color:rgba(255, 255, 255, 0.705);
+  color:#00ff15;
   position:absolute;
   top:10%;
   left:20%;
 }
 
+.bornAnswer{
+  color:white;
+  position:absolute;
+  top:10%;
+  left:23%;
+}
+
+.bornAnswerES{
+  color:white;
+  position:absolute;
+  top:10%;
+  left:23.5%;
+}
+
 .nationality{
-  color:rgba(255, 255, 255, 0.705);
+  color:#00ff15;
   position:absolute;
   left:20%;
   top:25%;
 }
 
+.nationalityAnswer{
+  color:white;
+  position:absolute;
+  left:27%;
+  top:25%;
+}
+
+.nationalityAnswerES{
+  color:white;
+  position:absolute;
+  left:28.5%;
+  top:25%;
+}
+
 .hobbies{
-  color:rgba(255, 255, 255, 0.705);
+  color:#00ff15;
   position:absolute;
   left:20%;
+  top:40%;
+}
+
+.hobbiesAnswer{
+  color:white;
+  position:absolute;
+  left:25.5%;
   top:40%;
 }
 
@@ -88,7 +122,6 @@ body{
 
 .introduction{
   /* background-color: rgb(22, 22, 27); */
-  background-color: rgb(22, 22, 27);
   display: flex;
   justify-content: center;
   width:100%;
@@ -101,9 +134,17 @@ body{
 }
 
 .Aboutme{
-  color:blanchedalmond;
+  color:#03680b;
   position:absolute;
   margin-bottom: 3%;
-  bottom:90%;
+  bottom:95%;
   left:45%;
+}
+
+.infologo{
+  position:absolute;
+  right:38%;
+  bottom:105%;
+  height:10%;
+  width:5%;
 }

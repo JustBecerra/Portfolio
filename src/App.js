@@ -97,12 +97,12 @@ function App() {
          <img className='profilePic' src={pic} alt="nothing"/>
            <Typography variant="p" className='welcometext'>
              <ThemeProvider theme={theme}>
-              {translate === false ? <Box fontFamily='BlinkMacSystemFont'>
+              {translate === false ? <Box>
                   Welcome, <br/>
                   I'm Justo Becerra<br/>
                   Full Stack Developer<br/>
               </Box>
-               : <Box fontFamily='BlinkMacSystemFont'>
+               : <Box >
                 Bienvenido, <br/>
                 soy Justo Becerra<br/>
                 Full Stack Developer<br/>

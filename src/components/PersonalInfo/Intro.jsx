@@ -1,5 +1,6 @@
 import './intro.css'
 import programmer from '../imgs/programmer.gif'
+import info from '../imgs/infologo.png'
 
 export default function Intro(translate){
   
@@ -14,21 +15,63 @@ export default function Intro(translate){
             Sobre mi 
           </h1> 
           }
+          <img src={info} className='infologo' alt='no hay nada'/>
+          {translate.translate === false ? 
           <h3 className='born'>
-            Birthday: 21/09/2000
+            Age
           </h3>
+          :
+          <h3 className='born'>
+            Edad
+          </h3>
+          }
+          {translate.translate === false ? 
+          <h3 className='bornAnswer'>
+            : 21
+          </h3>
+          : 
+          <h3 className='bornAnswerES'>
+          : 21
+          </h3>
+          }
+          
+          {translate.translate === false ?
           <h3 className='nationality'> 
-            Nationality: Argentina
+            Nationality
           </h3>
+          :
+          <h3 className='nationality'> 
+            Nacionalidad
+          </h3>
+          }
+          {translate.translate === false ?
+          <h3 className='nationalityAnswer'> 
+            : Argentina
+          </h3>
+          :
+          <h3 className='nationalityAnswerES'> 
+            : Argentina
+          </h3>
+          }  
           <h3 className='hobbies'> 
-            Hobbies: Gym rat and Geek
+            Hobbies
           </h3>
+          {translate.translate === false ?
+          <h3 className='hobbiesAnswer'> 
+            : Gym and Geek
+          </h3>
+          :
+          <h3 className='hobbiesAnswer'> 
+            : Gimnasio y nerd
+          </h3>
+          }
+          
           <div className='Pbackground'>
           {translate.translate === false ? 
           <p className='paragraph'>
             I'm a Junior Full Stack Web Developer specialized in ReactJS for the Front-End and NodeJs for the Back-End.<br/>
             I graduated from SoyHenry's Bootcamp after 800+ hours of programming.
-            Hardworking, team player, precise and stoic.<br/>
+            Hardworker, team player, precise and stoic.<br/>
             Fully capable and willing to work with others to achieve new goals.<br/>
             When I come face to face with a problem, I try to fix it myself but I'm not shy about asking others for help.<br/>
             My goals for the future are to join a great group of developers and learn as much as I can.
