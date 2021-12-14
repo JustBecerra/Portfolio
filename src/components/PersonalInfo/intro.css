@@ -1,48 +1,138 @@
 
 @media (max-width:500px){
   .Pbackground{
-    color:blanchedalmond;
     z-index: 10px;
     width:100% !important;
-    height:20% !important;
+    height:100% !important;
+    background: #000000;
+    background: -moz-linear-gradient(top, #000000 0%, #062F02 50%, #0EC50B 100%);
+    background: -webkit-linear-gradient(top, #000000 0%, #062F02 50%, #0EC50B 100%);
+    background: linear-gradient(to bottom, #000000 0%, #062F02 50%, #0EC50B 100%);
     opacity:0.6;
-    border: 5px double #074f92;
+    margin-right: 10%;
+    position:absolute !important;
+    left:0% !important;
   }
 
   .Aboutme{
-    color:blanchedalmond;
+    /* color:blanchedalmond; */
+    font-size:x-large !important;
     position:absolute !important;
     bottom:100% !important;
-    left:5% !important;
+    left:30% !important;
+  }
+  
+  .infologo{
+    position:absolute !important;
+    right:30% !important;
+    bottom:102% !important; 
+    height:10% !important;
+    width:10% !important;
   }
 
   .programmergif{
-    width:20% !important;
-    height:10% !important;
+    width:35% !important;
+    height:20% !important;
+    position:absolute !important;
+    right:8% !important;
+    top:10% !important;
+  }
+  
+  .paragraph{
+    color:white;
+    font-size: small !important;
+    position:absolute !important;
+    top:40% !important;
+    left:2%
   }
 
   .introduction{
     display: flex !important;
-    flex-direction: column;
-    width:90%;
-    margin-top: 10% !important;
+    /* justify-content: center; */
+    width:100% !important;
+    margin-top: 15% !important;
     margin-bottom: 20% !important;
     position: relative !important;
     top:75% !important;
     right:0% !important;
+    height:60%;
   }
+
+  .born{
+    color:#00ff15;
+    font-size: small !important;
+    position:absolute;
+    top:0% !important;
+    left:2% !important;
+  }
+  
+  .bornAnswer{
+    color:white;
+    font-size: small !important;
+    position:absolute;
+    top:0% !important;
+    left:8.5% !important;
+  }
+  
+  .bornAnswerES{
+    color:white;
+    font-size: small !important;
+    position:absolute;
+    top:0% !important;
+    left:10.5% !important;
+  }
+  
+  .nationality{
+    color:#00ff15;
+    font-size: small !important;
+    position:absolute;
+    left:2% !important;
+    top:10% !important;
+  }
+  
+  .nationalityAnswer{
+    color:white;
+    font-size: small !important;
+    position:absolute;
+    left:19.5% !important;
+    top:10% !important;
+  }
+  
+  .nationalityAnswerES{
+    color:white;
+    font-size: small !important;
+    position:absolute;
+    left:22.5% !important;
+    top:10% !important;
+  }
+  
+  .hobbies{
+    color:#00ff15;
+    font-size: small !important;
+    position:absolute;
+    left:2% !important;
+    top:20% !important;
+  }
+  
+  .hobbiesAnswer{
+    color:white;
+    font-size: small !important;
+    position:absolute;
+    left:15% !important;
+    top:20% !important;
+  }
+  
 }
 
 .Pbackground{
   background: #000000;
-background: -moz-linear-gradient(top, #000000 0%, #062F02 50%, #0EC50B 100%);
-background: -webkit-linear-gradient(top, #000000 0%, #062F02 50%, #0EC50B 100%);
-background: linear-gradient(to bottom, #000000 0%, #062F02 50%, #0EC50B 100%);
+  background: -moz-linear-gradient(top, #000000 0%, #062F02 50%, #0EC50B 100%);
+  background: -webkit-linear-gradient(top, #000000 0%, #062F02 50%, #0EC50B 100%);
+  background: linear-gradient(to bottom, #000000 0%, #062F02 50%, #0EC50B 100%);
   width:80%;
   height:98%;
   opacity:0.6;
   margin-right: 10%;
-  /* border: 5px double #03680b; */
   position:relative;
   left:18%;
 }

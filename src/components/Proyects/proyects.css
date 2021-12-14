@@ -3,49 +3,79 @@
   .projectname{
     color:rgb(255, 255, 255);
     text-decoration:wavy;
-    font-size: 20px;
+    font-size: small !important;
+    position:relative !important;
+    top:-15% !important;
+  }
+  
+  .container{
+    margin-right: 20%;
+    margin-bottom:5%;
+    background-color: rgb(22, 22, 27);
+    width:100%;
+    height:60%;
     position:relative;
-    bottom:180px !important;
+    bottom:20%;
   }
 
-  .links{
-    color:rgb(15, 248, 229);
-    text-decoration:none;
-    font-size: 20px;
-    width:100px;
-    position:relative;
-    left:0% !important;
-    bottom:185px;
+  .cardcontainer{
+    /* margin-right: 20% !important; */
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    position:absolute !important;
+    bottom:10% !important;
+    width: 100% !important;
+    height: 80% !important;
   }
-
-  .PIvideo{
+  
+  .ProjectCard{
+    border: 3px solid #fcfcfc;
+    text-decoration: none;
+    box-shadow: 10px 10px 12px 2px #d5dfd6;
     width:100% !important;
-    position:relative;
-    left:0% !important;
-    bottom:180px;
+    height:100% !important;
+    margin-right: 5% !important;
   }
-
-  .PGvideo{
-    width:100% !important;
-    position:relative;
-    left:0% !important;
-    bottom:150px;
-  }
-
+  
   .thankstext{
     color:blanchedalmond;
-    width:95% !important;
-    position:relative;
-    bottom:75px;
-    left:0% !important;
+    font-size: x-small !important;
+    width:85% !important;
+    position:absolute !important;
+    top:105% !important;
+    left:10% !important;
   }
 
   .titulo{
-    color:blanchedalmond;
-    width:200px;
-    position:relative;
-    left:0% !important;
-    bottom:200px;
+    font-size: x-large;
+    position:absolute !important;
+    left:30% !important;
+    top:-20% !important;
+  }
+  
+  .PItechs{
+    color: #ffffff;
+    font-size: small;
+    position:absolute;
+    bottom:-5% !important;
+    left:17% !important;
+  }
+  
+  .PGtechs{
+    color: #ffffff;
+    font-size: small;
+    position:absolute;
+    bottom:-6% !important;
+    left:58% !important;
+  }
+
+  .BPlogo{
+    width:10% !important;
+    height:10% !important;
+    position:absolute !important;
+    top:-15% !important;
+    right:20% !important;
   }
 }
 
