@@ -51,7 +51,7 @@ function App() {
             offset={-70}
             duration={500}
           >
-            {translate === false ? <Button style={{ color: '#FFFFFF'}} className='buttonscroll'>
+            {translate === false ? <Button size='small' style={{ color: '#FFFFFF'}} className='buttonscroll'>
               About me
             </Button> :
               <Button style={{ color: '#FFFFFF'}} className='buttonscroll'>
@@ -67,7 +67,7 @@ function App() {
             offset={-70}
             duration={500}
           >
-            {translate === false ? <Button style={{ color: '#FFFFFF'}} className='buttonscroll'>
+            {translate === false ? <Button size='small' style={{ color: '#FFFFFF'}} className='buttonscroll'>
               Technologies
             </Button> :
               <Button style={{ color: '#FFFFFF'}} className='buttonscroll'>
@@ -83,7 +83,7 @@ function App() {
           offset={-70}
           duration={500}
         >
-          {translate === false ? <Button style={{ color: '#FFFFFF'}} className='buttonscroll'>
+          {translate === false ? <Button size='small' style={{ color: '#FFFFFF'}} className='buttonscroll'>
               Projects
             </Button> :
               <Button style={{ color: '#FFFFFF'}} className='buttonscroll'>
