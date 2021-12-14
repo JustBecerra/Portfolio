@@ -34,7 +34,7 @@ function App() {
   return (
     <div className='imagenfondo'>
       <Container className='navbar'>
-        <AppBar color='transparent'>
+        <AppBar color='transparent'> 
           <Container className='appbar'>
           <Switch 
             className='navbarBG'
