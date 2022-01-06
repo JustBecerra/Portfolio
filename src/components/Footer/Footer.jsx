@@ -27,14 +27,11 @@ export default function Footer(){
                       <img className='logoLinkedIn' src={logoLinkedIn} alt='no hay nada'/>
                     </a>
                   </h4>
-                
-                {/* <img className='logoGmail' src={logoGmail} alt='no hay nada'/> */}
                 <h4 className='gmailtext'>
                   justj.becerra@gmail.com
                 </h4>
             </Grid>
           </div>
-          {/* <h1>Espero que te haya gustado!</h1> */}
         </div>
         </Container>
     )

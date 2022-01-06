@@ -7,14 +7,10 @@
 .appbar{
   background-color: transparent;
   display:flex;
-  /* flex-direction: row; */
-  /* justify-content: space-around; */
 }
 
 .navbarBG{
   background-color: transparent;
-  /* border-top-left-radius: 18px;
-  border-bottom-left-radius: 18px; */
   background:solid;
   z-index: 1;
 }
@@ -26,7 +22,6 @@
 .languagelogo{
   width:3%;
   z-index: 1;
-  /* background-color:transparent; */
   position:fixed;
   top:0%;
   left:0.5%;
@@ -50,7 +45,6 @@
     background-image: url('../src/components/imgs/night\ road.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position:initial; */
     box-sizing: border-box;
     width:100% !important;
     height:500px !important;
@@ -58,16 +52,28 @@
     
   .buttonscroll{
     width:27% !important;
+    height:100% !important;
     font-size: small;
+  }
+  
+  .appbar{
+    background-color: transparent;
+    height:50px;
+  }
+
+  .dropdownB{
+    height:100%;
+    position:absolute;
+    left:50%;
+    top:20%;
   }
 
   .languagelogo{
     width:7%;
     z-index: 1;
-    /* background-color:transparent; */
     position:fixed;
-    top:1% !important;
-    left:0.5%;
+    top:2% !important;
+    left:0.3%;
   }
 
   .profilePic{
@@ -82,8 +88,6 @@
   .welcometext{
     color:whitesmoke;
     font-size:25px !important;
-    /* width:15px !important;
-    height:15px !important; */
     position:absolute;
     left:10% !important;
     top:45% !important;
@@ -109,25 +113,7 @@
 body{
   background-color: rgb(6, 6, 14);
   font-family:'Times New Roman'
-  /* animation-name: welcomeanimation;
-  animation-duration: 3s; */
 }
-
-/* .entryanimation{
-  font-size: 80px;
-  position:absolute;
-  top:35%;
-  left:24%;
-}
-
-@keyframes welcomeanimation{
-  from { background-color: #242526;}
-  to {background-color: rgb(4, 209, 199);
-    
-  }
-} */
-
-
 
 .profilePic{
   z-index: 0;

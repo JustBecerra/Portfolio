@@ -31,19 +31,21 @@ function App() {
     },
   });
   const [translate,setTranslate] = useState(false)
+  
   return (
     <div className='imagenfondo'>
       <Container className='navbar'>
         <AppBar color='transparent'> 
-          <Container className='appbar'>
-          <Switch 
-            className='navbarBG'
-            checked={translate}
-            onChange={() => setTranslate(!translate)}
-            color='default'
-          />
-          {translate === false ? <img className='languagelogo' src={britishlogo}/> : <img className='languagelogo' src={spanishlogo}/>}
-          <Link
+          {window.innerWidth > 500 ? 
+            <Container className='appbar'>
+            <Switch 
+              className='navbarBG'
+              checked={translate}
+              onChange={() => setTranslate(!translate)}
+              color='default'
+            />
+            {translate === false ? <img className='languagelogo' src={britishlogo}/> : <img className='languagelogo' src={spanishlogo}/>}
+            <Link
             activeClass="active"
             to="about"
             spy={true}
@@ -91,7 +93,66 @@ function App() {
             </Button>
             }
         </Link>
-        </Container>
+        </Container> 
+           :
+          <Container className='appbar'>
+          <Switch 
+            className='navbarBG'
+            checked={translate}
+            onChange={() => setTranslate(!translate)}
+            color='default'
+          />
+          {translate === false ? <img className='languagelogo' src={britishlogo}/> : <img className='languagelogo' src={spanishlogo}/>}
+            <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            {translate === false ? <Button size='small' style={{ color: '#FFFFFF'}} className='buttonscroll'>
+              About me
+            </Button> :
+              <Button style={{ color: '#FFFFFF'}} className='buttonscroll'>
+              Sobre mi
+            </Button>
+            }
+          </Link>
+          <Link
+            activeClass="active"
+            to="techs"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            {translate === false ? <Button size='small' style={{ color: '#FFFFFF'}} className='buttonscroll'>
+              Technologies
+            </Button> :
+              <Button style={{ color: '#FFFFFF'}} className='buttonscroll'>
+              Tecnologías
+            </Button>
+            }
+          </Link>
+          <Link
+          activeClass="active"
+          to="proyects"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          {translate === false ? <Button size='small' style={{ color: '#FFFFFF'}} className='buttonscroll'>
+              Projects
+            </Button> :
+              <Button style={{ color: '#FFFFFF'}} className='buttonscroll'>
+              Proyectos
+            </Button>
+            }
+        </Link>
+          </Container>
+        } 
         </AppBar>
       </Container>
          <img className='profilePic' src={pic} alt="nothing"/>

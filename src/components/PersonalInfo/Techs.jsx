@@ -1,6 +1,5 @@
 import './techs.css'
-import { Box, Grid, withWidth } from '@material-ui/core'
-import { ListItem } from '@material-ui/core'
+import { Grid } from '@material-ui/core'
 import jslogo from '../imgs/javascriptlogo.png'
 import tslogo from '../imgs/typescriptlogo.png'
 import reactlogo from '../imgs/reactlogo.png'

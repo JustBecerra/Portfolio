@@ -47,21 +47,18 @@
     
     .tslogo{
         width:24%;
-        /* height:20%; */
         position:relative;
         left:40%;
     }
     
     .expresslogo{
         width:30%;
-        /* height:20%; */
         position:relative;
         left:35%;
     }
     
     .logos{
         width:15%;
-        /* height:20%; */
         position:relative;
         left:40%;
     }
@@ -120,21 +117,18 @@
 
 .logos{
     width:15%;
-    /* height:20%; */
     position:relative;
     left:40%;
 }
 
 .expresslogo{
     width:30%;
-    /* height:20%; */
     position:relative;
     left:32%;
 }
 
 .tslogo{
     width:24%;
-    /* height:20%; */
     position:relative;
     left:35%;
 }
