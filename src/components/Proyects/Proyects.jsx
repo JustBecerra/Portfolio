@@ -4,11 +4,13 @@ import { Link } from '@material-ui/core'
 import { CardMedia } from '@mui/material';
 import PIimg from '../imgs/joystick.png'
 import PGimg from '../imgs/paw.png'
+import SPimg from '../imgs/cartoonbills.png'
 import blueprint from '../imgs/blueprintlogo.jpg'
 
 export default function Proyects(translate){
     const [stylePI, setStylePI] = useState({display: 'none'});
     const [stylePG, setStylePG] = useState({display: 'none'});
+    const [styleSP, setStyleSP] = useState({display: 'none'});
     return(
         <div id='proyects' className='container'>         
             {translate.translate === false ?
@@ -38,6 +40,28 @@ export default function Proyects(translate){
                 <h4 style={stylePI} className='PItechs'>
                 ReactJs<br/>
                 NodeJs<br/>
+                JavaScript<br/>
+                CSS3
+                </h4>
+            </CardMedia>
+            </Link>
+            <Link style={{ textDecoration: 'none' }} href='https://spending-control.vercel.app' >     
+            <CardMedia image={SPimg}  className='ProjectCard'
+                onMouseEnter={e => {
+                    setStyleSP({display: 'block'});
+                  }}
+                  onMouseLeave={e => {
+                    setStyleSP({display: 'none'})
+                  }}
+            >
+                {translate.translate === false ?
+                <h2 className='projectname'>Spending Control</h2>
+                :
+                <h2 className='projectname'>Control de gastos</h2>
+                }
+                <h4 style={styleSP} className='SPtechs'>
+                ReactJs<br/>
+                ReduxJs<br/>
                 JavaScript<br/>
                 CSS3
                 </h4>
