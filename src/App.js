@@ -11,7 +11,7 @@ import { createTheme } from '@material-ui/core';
 import { ThemeProvider } from '@material-ui/styles';
 import britishlogo from '../src/components/imgs/britishlogo.png'
 import spanishlogo from '../src/components/imgs/spanishlogo.png'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 function App() {
   const theme = createTheme({
@@ -44,7 +44,7 @@ function App() {
               onChange={() => setTranslate(!translate)}
               color='default'
             />
-            {translate === false ? <img className='languagelogo' src={britishlogo}/> : <img className='languagelogo' src={spanishlogo}/>}
+            {translate === false ? <img className='languagelogo' src={britishlogo} alt='' /> : <img className='languagelogo' src={spanishlogo} alt=''/>}
             <Link
             activeClass="active"
             to="about"
@@ -102,7 +102,7 @@ function App() {
             onChange={() => setTranslate(!translate)}
             color='default'
           />
-          {translate === false ? <img className='languagelogo' src={britishlogo}/> : <img className='languagelogo' src={spanishlogo}/>}
+          {translate === false ? <img className='languagelogo' src={britishlogo} alt=''/> : <img className='languagelogo' src={spanishlogo} alt=''/>}
             <Link
             activeClass="active"
             to="about"
